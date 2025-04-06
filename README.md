@@ -3,4 +3,13 @@ This proyect was made for the subject called Data Bases for the curse im doing r
 
 Programs used: Xampp (Windows), Dbeaver (Windows)
 
-Just conect to a user and ejecute the script line per line because otherwise it will send an error message, and see results
+The PDF file explains in spanish what's going on
+
+Just conect to a user in your database manager and ejecute the script line per line to create the database, because otherwise it will send an error message, and see results
+
+A line for example might be : 
+
+CREATE TABLE Categorias (
+    CategoriaID INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50) NOT NULL
+);
